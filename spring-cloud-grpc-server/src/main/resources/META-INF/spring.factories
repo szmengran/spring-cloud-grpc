@@ -1,0 +1,10 @@
+# AutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.szmengran.grpc.server.autoconfigure.GrpcMetadataConsulConfiguration,\
+com.szmengran.grpc.server.autoconfigure.GrpcMetadataEurekaConfiguration,\
+com.szmengran.grpc.server.autoconfigure.GrpcMetadataNacosConfiguration,\
+com.szmengran.grpc.server.autoconfigure.GrpcServerAutoConfiguration,\
+com.szmengran.grpc.server.autoconfigure.GrpcServerFactoryAutoConfiguration,\
+com.szmengran.grpc.server.autoconfigure.GrpcServerSecurityAutoConfiguration,\
+com.szmengran.grpc.server.autoconfigure.GrpcServerMetricAutoConfiguration,\
+com.szmengran.grpc.server.autoconfigure.GrpcServerTraceAutoConfiguration
