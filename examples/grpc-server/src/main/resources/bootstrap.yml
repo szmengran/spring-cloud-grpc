@@ -8,6 +8,9 @@ grpc:
 spring:
   application:
     name: grpc-server
+  sleuth:
+    sampler:
+      probability: 1
 eureka:
   instance:
     prefer-ip-address: true

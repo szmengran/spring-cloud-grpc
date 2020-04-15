@@ -8,6 +8,7 @@ import com.szmengran.examples.grpc.api.SimpleGrpc;
 import com.szmengran.grpc.client.inject.GrpcClient;
 
 import io.grpc.StatusRuntimeException;
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * @Description grpc服务调用例子
@@ -15,6 +16,7 @@ import io.grpc.StatusRuntimeException;
  * @Author <a href="mailto:android_li@sina.cn">Joe</a>
  **/
 @Service
+@Slf4j
 public class ExampleService {
 
     @GrpcClient("grpc-server")
@@ -22,6 +24,7 @@ public class ExampleService {
 
     public String sendMessage(String name) {
         try {
+            log.info(name);
             final HelloReply response = this.simpleStub.sayHello(HelloRequest.newBuilder().setName(name).build());
             return response.getMessage();
         } catch (final StatusRuntimeException e) {
