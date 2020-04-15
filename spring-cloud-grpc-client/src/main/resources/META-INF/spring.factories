@@ -1,7 +1,7 @@
 # AutoConfiguration
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
 com.szmengran.grpc.client.autoconfigure.GrpcClientAutoConfiguration,\
-com.suntak.grpc.client.autoconfigure.GrpcClientMetricAutoConfiguration,\
+com.szmengran.grpc.client.autoconfigure.GrpcClientMetricAutoConfiguration,\
 com.szmengran.grpc.client.autoconfigure.GrpcClientHealthAutoConfiguration,\
 com.szmengran.grpc.client.autoconfigure.GrpcClientSecurityAutoConfiguration,\
 com.szmengran.grpc.client.autoconfigure.GrpcClientTraceAutoConfiguration,\
