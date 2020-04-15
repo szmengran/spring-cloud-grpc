@@ -15,7 +15,6 @@
     <modules>
         <module>eureka-server</module>
         <module>grpc-api</module>
-        <module>eureka-server</module>
         <module>grpc-server</module>
         <module>grpc-client</module>
     </modules>
