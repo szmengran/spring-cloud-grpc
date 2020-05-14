@@ -3,7 +3,7 @@
   <parent>
     <groupId>com.szmengran</groupId>
     <artifactId>spring-cloud-grpc</artifactId>
-    <version>1.0.0.RELEASE</version>
+    <version>1.0.1.RELEASE</version>
   </parent>
   <artifactId>spring-cloud-grpc-client</artifactId>
   <dependencies>
