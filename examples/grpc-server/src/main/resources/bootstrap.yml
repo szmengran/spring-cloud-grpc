@@ -1,5 +1,5 @@
 server:
-  port: 10031
+  port: 10037
   servlet:
     context-path: /api/v1/server
 grpc:
